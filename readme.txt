@@ -1,5 +1,5 @@
 === Native Emoji ===
-Contributors: Daniel Brandenburg
+Contributors: Davabuu Designs
 Tags: native emoji, emoji, emoticons, icons, editor, tinymce, content
 Requires at least: 4.2
 Tested up to: 4.2.2
