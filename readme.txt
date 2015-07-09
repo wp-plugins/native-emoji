@@ -55,5 +55,6 @@ Developed by [Davabuu Designs](http://davabuu.com/)
 
 = 1.0 =
 *Release Date - 1 July 2015*
+
 *Hello World!
 
