@@ -10,7 +10,7 @@ License: GPLv2 or later
 
 This is not just a plugin, this is the plugin for use emoji in a native way. When activated you will see a new button in your wordpress editor, from there you will be able to include more than 1,000 icons in to your post, pages, etc.
 
-Native Emoji Features:
+= Features =
 
 * Very Easy To Use
 * More Than 1,000 icons
@@ -22,9 +22,9 @@ Native Emoji Features:
 * Translation Ready -All spanish versions-
 
 If the OS doesn't support emoji, this plugin insert an image instead of the emoji code. 
-Read more about this plugin http://native-emoji.davabuu.com/
+Read more about this plugin [here](http://native-emoji.davabuu.com/)
 
-Developed by http://davabuu.com/
+Developed by [Davabuu Designs](http://davabuu.com/)
 
 == Installation ==
 
@@ -42,9 +42,19 @@ Developed by http://davabuu.com/
 3. Activate Native Emoji from your Plugins page. 
 4. Visit Any post type from your admin and click on the smiley button in the editor
 
+== Screenshots ==
+
+1. screenshot-1.png
+2. screenshot-2.png
+3. screenshot-3.png
+4. screenshot-4.png
+5. screenshot-5.png
+6. screenshot-6.png
+
 == Changelog ==
 
 = 1.0 =
 *Release Date - 1 July 2015*
+
 *Hello World!
 
