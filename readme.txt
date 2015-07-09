@@ -1,7 +1,7 @@
 === Native Emoji ===
 Contributors: davabuu
 Tags: content, editor, emoji, emoticons, icons, native emoji, TinyMCE
-Requires at least: 42
+Requires at least: 4.2
 Tested up to: 4.2.2
 Stable tag: 1.0
 License: GPLv2 or later
@@ -19,11 +19,12 @@ Native Emoji Features:
 * iOS Native Emoji
 * Android Native Emoji
 * W8 Native Emoji 
+* Translation Ready -All spanish versions-
 
 If the OS doesn't support emoji, this plugin insert an image instead of the emoji code. 
-Read more about this plugin [here](http://native-emoji.davabuu.com/)
+Read more about this plugin http://native-emoji.davabuu.com/
 
-Developed by [Davabuu Designs](http://davabuu.com/)
+Developed by http://davabuu.com/
 
 == Installation ==
 
@@ -45,6 +46,5 @@ Developed by [Davabuu Designs](http://davabuu.com/)
 
 = 1.0 =
 *Release Date - 1 July 2015*
-
 *Hello World!
 
