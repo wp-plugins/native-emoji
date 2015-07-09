@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*
+* Plugin Name: Native Emoji
+* Plugin URI: http://native-emoji.davabuu.com
+* Version: 1.0.
+* Author: Davabuu Designs
+* Author URI: http://davabuu.com
+*/
+
+div.nep_mce-caller {
+	border-bottom: 1px solid #ccc;
+}
+div.nep_mce-caller img.scroll {
+	width: 25px;
+	cursor: pointer;
+	outline: none;
+	padding: 3px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+div.nep_mce-caller img.scroll.active {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+div.nep_mce-caller span.mce-label {
+	color: #777;
+	padding: 5px 3px;
+	border-top: 1px solid #ccc;
+	margin-top: 3px;
+	display: block;
+}
+span.nep_mce-arrow-box {
+	width: 15px;
+	height: 167px;
+	float: left;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;	
+}
+span.nep_mce-arrow-active {
+	background-color: #EFEFEF;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+span.nep_mce-arrow-inactive {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: alpha(opacity=25);
+	-moz-opacity: 0.25;
+	-khtml-opacity: 0.25;
+	opacity: 0.25;
+}
+span.nep_mce-left-arrow {
+	background-image: url(../img/nep_arrow-left.png);	
+}
+span.nep_mce-right-arrow {	
+	background-image: url(../img/nep_arrow-right.png);
+}
+div.nep_mce-shown {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	width: 365px;
+	overflow: hidden;
+	float: left;
+}
+div#nep_mce-floating {
+	width: 5723px;
+}
+div.nep_mce-overflow {
+	display: inline-block;
+	margin-right: 5px;
+}
+table#nep_mce-emoji-icons a[role=option],
+table#nep_mce-emoji-icons a[role=option]:focus,
+table#nep_mce-emoji-icons a[role=option].hover {
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+table#nep_mce-emoji-icons a[role=option] img {
+	width: 25px;
+	padding: 3px;
+}
+table#nep_mce-emoji-icons a[role=option] img:hover,
+table#nep_mce-emoji-icons a[role=option] img:focus {
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(204, 204, 204, 1);
+	-moz-box-shadow:    inset 0px 0px 10px 0px rgba(204, 204, 204, 1);
+	box-shadow:         inset 0px 0px 10px 0px rgba(204, 204, 204, 1);
+}
