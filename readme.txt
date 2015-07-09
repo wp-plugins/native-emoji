@@ -23,7 +23,7 @@ Native Emoji Features:
 If the OS doesn't support emoji, this plugin insert an image instead of the emoji code. 
 Read more about this plugin [here](http://native-emoji.davabuu.com/)
 
-Developed by [Davabuu Designs](http://native-emoji.davabuu.com/)
+Developed by [Davabuu Designs](http://davabuu.com/)
 
 == Installation ==
 
