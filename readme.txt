@@ -6,6 +6,8 @@ Tested up to: 4.2.2
 Stable tag: 1.0
 License: GPLv2 or later
 
+Insert emojis in your posts, pages, etc.
+
 == Description ==
 
 This is not just a plugin, this is the plugin for use emoji in a native way. When activated you will see a new button in your wordpress editor, from there you will be able to include more than 1,000 icons in to your post, pages, etc.
