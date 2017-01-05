@@ -14,7 +14,6 @@ This is not just a plugin, this is the plugin for use emoji in a native way. Whe
 
 = Features =
 
-* Supports teeny mode of TeenyMCE
 * Supports frontend MCE Editor
 * Very Easy To Use
 * More Than 1,000 icons

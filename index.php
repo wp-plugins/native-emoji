@@ -62,6 +62,10 @@ class WP_nep_Native_Emoji{
 	   return $plugin_array;
 	}
 	
+	function nep_emoji_register_tinymce_javascript_teeny_mode($plugin_array){
+	    
+    }
+	
 	// Localize tinymce js plugin
 	function nep_emoji_localize_tinymce_javascript() {
 		global $locale;
