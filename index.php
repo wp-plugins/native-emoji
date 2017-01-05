@@ -26,18 +26,11 @@ class WP_nep_Native_Emoji{
 	function __construct() {
 		// Add the actions to the hooks
 		foreach ( array('post.php','post-new.php') as $hook ) {
-			add_action( "head-$hook", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
+			add_action( "admin_head-$hook", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
 			wp_enqueue_style( 'nep_native-emoji' );
 			wp_enqueue_script( 'jquery' );
 			wp_enqueue_script( 'nep_native-emoji' );
 		}
-		
-		
-		add_action( "wp_head", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
-		wp_enqueue_style( 'nep_native-emoji' );
-		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'nep_native-emoji' );
-		
 		// Add the filters to the editor
 		add_action( 'admin_notices', array( $this, 'nep_emoji_activation_msg' ));
 		add_filter( 'mce_buttons', array( $this, 'nep_emoji_register_buttons' ));
