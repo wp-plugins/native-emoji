@@ -7,6 +7,7 @@
 * Author: Davabuu Designs
 * Author URI: http://davabuu.com
 * Text Domain: nep_native_emoji
+  *
 */
 
 // Localize The Plugn
