@@ -24,6 +24,7 @@ class WP_nep_Native_Emoji{
 
   	// Constructor
 	function __construct() {
+	    
 		// Add the actions to the hooks
 		//foreach ( array('post.php','post-new.php') as $hook ) {
 			add_action( "wp_head", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
