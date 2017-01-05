@@ -39,7 +39,7 @@ class WP_nep_Native_Emoji{
 		// Add the filters to the editor
 		add_action( 'admin_notices', array( $this, 'nep_emoji_activation_msg' ));
 		add_filter( 'mce_buttons', array( $this, 'nep_emoji_register_buttons' ));
-		add_filter( 'teeny_mce_plugins', array( $this, 'nep_emoji_register_buttons' ));
+		//add_filter( 'teeny_mce_plugins', array( $this, 'nep_emoji_register_buttons' ));
 		add_filter( 'mce_external_plugins', array( $this, 'nep_emoji_register_tinymce_javascript' ));
 		//add_filter( 'teeny_mce_plugins', array( $this, 'nep_emoji_register_tinymce_javascript' ));
 		// Register activation and desactivation hook
