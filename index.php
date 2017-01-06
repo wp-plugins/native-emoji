@@ -24,18 +24,27 @@ class WP_nep_Native_Emoji{
 
   	// Constructor
 	function __construct() {
+		add_action( "wp_head", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
+		wp_enqueue_style( 'nep_native-emoji' );
+		wp_enqueue_script( 'jquery' );
+		wp_enqueue_script( 'nep_native-emoji' );
+		
 		// Add the actions to the hooks
 		foreach ( array('post.php','post-new.php') as $hook ) {
 			add_action( "admin_head-$hook", array( $this, 'nep_emoji_localize_tinymce_javascript' ));
-			wp_enqueue_style( 'nep_native-emoji' );
-			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'nep_native-emoji' );
-		}				
+			//wp_enqueue_style( 'nep_native-emoji' );
+			//wp_enqueue_script( 'jquery' );
+			//wp_enqueue_script( 'nep_native-emoji' );
+		}
 		// Add the filters to the editor
 		add_action( 'admin_notices', array( $this, 'nep_emoji_activation_msg' ));
+		
+		add_filter( 'teeny_mce_buttons', array( $this, 'nep_emoji_register_buttons' ));
+		//add_filter( 'teeny_mce_plugins', array( $this, 'nep_emoji_register_tinymce_javascript' ));
+		
 		add_filter( 'mce_buttons', array( $this, 'nep_emoji_register_buttons' ));
 		add_filter( 'mce_external_plugins', array( $this, 'nep_emoji_register_tinymce_javascript' ));
-		
+		//add_filter( 'teeny_mce_plugins', array( $this, 'nep_emoji_register_tinymce_javascript' ));
 		// Register activation and desactivation hook
 		register_activation_hook( __FILE__, array( $this, 'nep_emoji_install' ) );
 		register_deactivation_hook( __FILE__, array( $this, 'nep_emoji_uninstall' ) );
@@ -52,6 +61,10 @@ class WP_nep_Native_Emoji{
 	   $plugin_array['nep_native_emoji'] = plugins_url('/js/tinymce-plugin.js',__FILE__);
 	   return $plugin_array;
 	}
+	
+	function nep_emoji_register_tinymce_javascript_teeny_mode($plugin_array){
+	    
+    }
 	
 	// Localize tinymce js plugin
 	function nep_emoji_localize_tinymce_javascript() {

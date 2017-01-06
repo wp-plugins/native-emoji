@@ -1,5 +1,5 @@
 === Native Emoji ===
-Contributors: davabuu
+Contributors: davabuu, barbocc
 Tags: content, editor, emoji, emoticons, icons, native emoji, TinyMCE
 Requires at least: 4.2
 Tested up to: 4.2.2
@@ -14,6 +14,7 @@ This is not just a plugin, this is the plugin for use emoji in a native way. Whe
 
 = Features =
 
+* Supports frontend MCE Editor
 * Very Easy To Use
 * More Than 1,000 icons
 * Supports Any Theme
